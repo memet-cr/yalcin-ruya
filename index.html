@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yalçın ♡ Rüya | Bizim Hikâyemiz</title>
+<style>
+:root{--pink:#ff5fa2;--rose:#c52d75;--light:#fff0f7;--ink:#6b2448;--glass:rgba(255,255,255,.82)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Trebuchet MS",Arial,sans-serif;color:var(--ink);background:linear-gradient(145deg,#ffe0ee,#fff8fb 45%,#ffc7e0);overflow-x:hidden}
+#sky{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.float{position:absolute;bottom:-60px;animation:rise linear infinite;opacity:.6}
+@keyframes rise{to{transform:translateY(-120vh) rotate(35deg);opacity:0}}
+main{position:relative;z-index:1;width:min(1000px,92%);margin:auto;padding:28px 0 36px}
+.panel{background:var(--glass);border:1px solid #fff;border-radius:30px;padding:clamp(22px,5vw,52px);margin:18px 0;box-shadow:0 18px 55px #b8327020;backdrop-filter:blur(9px)}
+.hero{text-align:center;min-height:82vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.pill{background:#ffe0ef;color:var(--rose);padding:9px 16px;border-radius:99px;font-size:.9rem}
+h1{font-size:clamp(3rem,10vw,6.5rem);line-height:.98;letter-spacing:-2px;color:var(--rose);margin:24px 0 12px}
+h1 span{display:block;font-size:.5em;letter-spacing:1px;margin:12px 0}
+h2{color:var(--rose);text-align:center;font-size:clamp(1.5rem,4vw,2.3rem)}
+p{line-height:1.9}
+.intro{max-width:650px;font-size:1.08rem}
+.heart{font-size:4.4rem;filter:drop-shadow(0 8px 12px #ff7caf55);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.13)}}
+.btn{display:inline-block;border:0;text-decoration:none;cursor:pointer;color:white;font-weight:bold;font-size:1rem;padding:15px 24px;border-radius:99px;background:linear-gradient(135deg,#ff78b5,#c52d75);box-shadow:0 9px 22px #e78ab8;transition:.2s;margin:8px}
+.btn:hover{transform:translateY(-3px)}
+.center{text-align:center}
+.line{height:4px;width:90px;border-radius:5px;background:linear-gradient(90deg,#ff9bc8,#c52d75);margin:25px auto}
+.note{background:#fff4f9;border:1px solid #ffe1ef;border-radius:22px;padding:22px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.tile{background:#fff;border:1px solid #ffe1ef;border-radius:22px;padding:20px;text-align:center;box-shadow:0 8px 20px #b832700b}
+.tile .emoji{font-size:2.3rem;display:block;margin-bottom:8px}
+.tile strong{display:block;color:var(--rose);margin-bottom:7px}
+.date{font-size:clamp(1.5rem,5vw,2.6rem);font-weight:bold;color:var(--rose);letter-spacing:1px}
+#secret{display:none;text-align:center;animation:show .55s ease}
+#lockBox{max-width:460px;margin:20px auto 0;padding:22px;background:#fff4f9;border:1px solid #ffe1ef;border-radius:22px}
+#passwordInput{width:min(100%,280px);padding:13px 16px;border:2px solid #ffc1dc;border-radius:99px;font-size:1rem;text-align:center;outline:none;color:var(--ink);background:white}
+#passwordInput:focus{border-color:var(--pink);box-shadow:0 0 0 4px #ffb9d533}
+#errorMsg{display:none;color:#b4235c;font-weight:bold;margin:12px 0 0}
+@keyframes show{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+footer{text-align:center;padding:12px;font-size:.9rem}
+.small{font-size:.9rem;opacity:.8}
+@media(max-width:500px){.hero{min-height:75vh}h1{letter-spacing:-1px}.panel{border-radius:24px}}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<main>
+<section class="panel hero">
+  <span class="pill">💌 Yalçın'dan Rüya'ya, sevgiyle…</span>
+  <div class="heart">💗</div>
+  <h1>Yalçın <span>♡</span> Rüya</h1>
+  <p class="intro">Bazı insanlar hayatına gelir ve sıradan günleri bile güzelleştirir. Benim için o insan sensin, Rüya. Bu küçük sayfa, sana söylemek istediklerimin minicik bir parçası. 🌷</p>
+  <a class="btn" href="#hikayemiz">Hikâyemize git ↓</a>
+  <p class="small">Sadece ikimize ait küçük bir köşe ✨</p>
+</section>
+<section class="panel center" id="hikayemiz">
+  <h2>Bizim hikâyemiz 💞</h2>
+  <p>Her güzel hikâyenin bir başlangıcı vardır. Bizim hikâyemizin başlangıç tarihi de benim için özel bir gün…</p>
+  <div class="date">11.03.2026</div>
+  <p><strong>Birlikte olduğumuz gün. ♡</strong></p>
+  <div class="line"></div>
+  <p>O günden beri hikâyemize yeni anılar ekliyoruz. Dilerim önümüzde bizi bekleyen günler; bol kahkahalı, bol huzurlu ve hatırladıkça gülümsediğimiz anlarla dolu olur. 🥹💕</p>
+</section>
+<section class="panel">
+  <h2>Rüya, sana söylemek istediklerim… 💌</h2>
+  <div class="note">
+    <p>Belki her zaman hissettiklerimi en güzel şekilde anlatamıyorum ama senin benim için ne kadar değerli olduğunu bilmeni istiyorum. Seninle konuşmak, gülmek, günümden bir şeyler paylaşmak ve seni tanımaya devam etmek benim için çok kıymetli.</p>
+    <p>Birlikte her günün mükemmel olması gerekmiyor. Bazen sadece birbirimizi dinlemek, anlamaya çalışmak ve küçük şeylere birlikte gülmek bile yeter. Ben seninle güzel anılar biriktirmek, zor zamanlarda birbirimize destek olmak ve hikâyemizin her sayfasını sevgiyle yazmak istiyorum.</p>
+    <p>İyi ki yollarımız kesişmiş Rüya. İyi ki hayatımda yerin var. Bu sayfa küçük olabilir ama sana olan güzel dileklerim kocaman. 💗</p>
+  </div>
+</section>
+<section class="panel">
+  <h2>Sende sevdiğim güzellikler 🌸</h2>
+  <div class="grid">
+    <div class="tile"><span class="emoji">😊</span><strong>Gülüşün</strong>Bir anı güzelleştiren, yüzümde tebessüm oluşturan gülüşün.</div>
+    <div class="tile"><span class="emoji">🫶</span><strong>Kalbin</strong>İçtenliğin, düşüncelerin ve kendin gibi oluşun.</div>
+    <div class="tile"><span class="emoji">✨</span><strong>Varlığın</strong>Sıradan anları bile özel bir hatıraya dönüştürmen.</div>
+    <div class="tile"><span class="emoji">🌷</span><strong>Biz</strong>Birbirimizi tanımaya ve birlikte büyüyen hikâyemize devam etmemiz.</div>
+  </div>
+</section>
+<section class="panel center">
+  <h2>Bir de sana sakladığım sürpriz var… 🎁</h2>
+  <p>Bu sürprizin küçük bir anahtarı var… 💖</p>
+  <div id="lockBox">
+    <div style="font-size:2.2rem">🔐💗</div>
+    <p style="margin:10px 0">Şifreyi gir, sana sakladığım mesajı keşfet. 💌</p>
+    <form onsubmit="checkPassword(event)">
+      <input id="passwordInput" type="password" placeholder="Şifreyi buraya yaz" aria-label="Sürpriz şifresi" autocomplete="off" required>
+      <br>
+      <button class="btn" type="submit">Kilidi aç 🔑</button>
+    </form>
+    <p id="errorMsg" role="alert">Bu şifre olmadı, tekrar dene. 💕</p>
+    <p class="small">İpucu: Sizin için özel olan bir tarih ya da kelime seçebilirsin.</p>
+  </div>
+  <div class="note" id="secret">
+    <div style="font-size:2.6rem">💖🌙🌷</div>
+    <h2>Rüya'ya, Yalçın'dan…</h2>
+    <p>Adın gibi, hayatımda güzel bir rüya hissi bırakıyorsun. Bu küçük sürprizi açtığında yüzünde bir tebessüm oluşmasını istedim. Ne kadar zaman geçerse geçsin, birlikte kurduğumuz güzel anların kıymetini bilmeyi ve birbirimize sevgiyle yaklaşmayı unutmayalım.</p>
+    <p><strong>11.03.2026 — hikâyemizin güzel başlangıcı. Daha nice güzel anıya… 💗</strong></p>
+    <div style="font-size:2rem">Yalçın ♡ Rüya</div>
+  </div>
+</section>
+<footer>♡ Birlikte yazılan hikâyemizin her günü güzel olsun. ♡<br><span class="small">Sevgiyle hazırlandı • Yalçın'dan Rüya'ya 💗</span></footer>
+</main>
+<script>
+const sky=document.getElementById('sky'), symbols=['💗','💕','💖','🌸','✨','♡'];
+for(let i=0;i<30;i++){const e=document.createElement('span');e.className='float';e.textContent=symbols[Math.floor(Math.random()*symbols.length)];e.style.left=Math.random()*100+'%';e.style.fontSize=(15+Math.random()*24)+'px';e.style.animationDuration=(9+Math.random()*13)+'s';e.style.animationDelay=(-Math.random()*20)+'s';sky.appendChild(e)}
+// Şifreyi burada değiştirebilirsin. Varsayılan şifre: 11032026
+const surprisePassword = '110317';
+function checkPassword(event){
+  event.preventDefault();
+  const input=document.getElementById('passwordInput');
+  const error=document.getElementById('errorMsg');
+  if(input.value===surprisePassword){
+    error.style.display='none';
+    document.getElementById('lockBox').style.display='none';
+    document.getElementById('secret').style.display='block';
+    document.getElementById('secret').scrollIntoView({behavior:'smooth',block:'center'});
+  }else{
+    error.style.display='block';
+    input.value='';
+    input.focus();
+  }
+}
+</script>
+</body>
+</html>
